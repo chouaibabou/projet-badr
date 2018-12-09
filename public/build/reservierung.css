@@ -1,0 +1,16 @@
+
+article header h1{
+    text-align: right;
+}
+article header h2{
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    background: url("schnelles-mittagessen-b19,id=9cf6ad7f,b=lecker,w=590,h=442,cg=c.jpg");
+    margin:0;
+}
+
+.Reservierung_p{
+    text-align: center;
+    font-style: italic;
+}

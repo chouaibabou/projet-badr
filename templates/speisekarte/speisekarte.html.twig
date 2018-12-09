@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <body>
+        <hr>
+        
+        <div class="main-form">
+           <img src="{{ asset('build/image/0bfc0ce99892772fc285e10ee3943d9a_XL.jpg') }}" width="300">
+            <img src="{{ asset('build/image/gesundes-mittagessen.jpg') }}" width="300">
+        </div>
+        
+        <div class="button1">
+        <button type="button" class="btn btn-danger"><a style="color : white;" href="{{ path('fruechstueckfinal_index') }}">Frühstück</a>  </button>
+<button type="button" class="btn btn-danger"><a style="color : white;"  href="{{ path('mittagessen_index') }}">Mittagessen</a>  </button>
+
+        </div>
+        
+    
+        <div class="bilder"> <img src="{{ asset('build/image/schnelles-mittagessen-b19,id=9cf6ad7f,b=lecker,w=590,h=442,cg=c.jpg') }}" width="300">
+            <img src="{{ asset('build/image/getraenke-610x400.jpg') }}" width="300"></div>
+        
+        <div class="button2">
+        <button type="button" class="btn btn-danger"><a style="color : white;"  href="{{ path('salat_index') }}">Salat</a>  </button>
+          <button type="button" class="btn btn-danger"><a style="color : white;"  href="{{ path('getraenke_index') }}">Getränke</a>  </button>
+        </div> 
+    
+    </body>
+{% endblock %}

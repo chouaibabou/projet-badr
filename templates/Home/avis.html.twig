@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <body>
+
+        <hr>
+        <!-- bach tconecta-->
+        <form>
+           <input type="text" name="Username" placeholder="entrez votre adresse email">
+           <input type="text" name="mot de passe" placeholder="mot de passe">
+           <input type="submit">    
+        </form>
+        <!--end-->
+        <!-- fin dir avis dialk-->
+        <form>
+          <div class="form-group">
+                <label for="comment">Ihre Meinung ist uns Wichtig</label>
+                <textarea class="form-control" rows="5" name="votre avis " placeholder="Ihre Meinung hier eingeben"></textarea>
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+          </div>
+        </form>
+        <!--End-->      
+       <hr>
+       
+    
+</body>
+{% endblock %}

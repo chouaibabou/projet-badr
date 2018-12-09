@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+         <title>BADR Projet  </title>
+        	{% include "stylesheets.html.twig" %}
+    </head>
+    <body>
+    	{% block header %}
+            {% include "header.html.twig" %}
+        {% endblock %}
+
+        {% block sidebar %}
+            {% include "menu.html.twig" %}
+        {% endblock %}
+      
+        {% block body %}{% endblock %}
+
+		{% block footer %}
+            {% include "footer.html.twig" %}
+        {% endblock %}
+
+        {% block javascripts %}
+            {% include "javascript.html.twig" %}
+		{% endblock %}
+    </body>
+</html>

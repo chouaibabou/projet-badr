@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    
+}
+header {
+    
+    background: #333;
+    color: #DDD;
+    padding: 20px;
+    
+}
+
+}
+article header h1{
+    text-align: right;
+}
+article header h2{
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    background: url("schnelles-mittagessen-b19,id=9cf6ad7f,b=lecker,w=590,h=442,cg=c.jpg");
+    margin:0;
+}
+.main-form img{
+    
+    margin-right: 160px;
+    margin-left: 50px;
+}
+.button1 button{
+    margin-right: 277px;
+    margin-left: 150px;
+}
+.bilder img{
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.button2 button{
+    margin-right: 311px;
+    margin-left: 150px;    
+}
+footer{
+    background: #333;
+    color: #DDD;
+    padding: 20px;
+    bottom: 0px;}
+.foot{
+    text-align: left;
+    
+}

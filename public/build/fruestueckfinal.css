@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.clearfix{
+    clear: both;
+}
+article header h1{
+    
+    background: #333;
+    color: #DDD;
+    padding: 20px;
+}
+.headerF{
+
+    background: red;
+    color: #222;
+    padding: 20px;
+}
+
+.headerS{
+
+    background: red;
+    color: #222;
+    padding: 20px;
+}
+
+.headerM{
+
+    background: red;
+    color: #222;
+    padding: 20px;
+}
+
+.headerG{
+
+    background: red;
+    color: #222;
+    padding: 20px;
+}
+
+aside section{
+    padding: 20px;
+    background: red;
+    border: 1px solid #ccc;
+    margin: 30px auto;
+    }
+
+}
+
+article header h2{
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    margin-bottom: 20px;
+    background: #333;
+}  
+main p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.karte{
+    padding: 20px;
+    background: red;
+    border: 1px solid #ccc;
+    width: 70%;
+    float: left;
+    
+}
+aside{
+    .asideF{
+    float: right;
+    width: 30%;
+    }
+}
+
+

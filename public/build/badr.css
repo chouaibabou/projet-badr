@@ -1,0 +1,33 @@
+body{
+    font-family: Arial
+}
+header {
+    
+    background: #333;
+    color: #DDD;
+    padding: 20px;
+    
+}
+form{
+    text-align: right;
+}
+article header h1{
+    text-align: right;
+}
+.main-form{
+    text-align: left;
+}
+footer{
+    background: #333;
+    color: #DDD;
+    padding: 41px;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+.avis{
+    text-align: center;
+    width: 200px;
+    padding: 200px;
+}
